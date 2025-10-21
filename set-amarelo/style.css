@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Elowen';
+    src: url('fonts/Elowen.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+    font-family: 'Elowen', sans-serif;
+    text-align: center;
+    color: #af6e31;
+}
+
+body {
+    background-color: #fef8cd;
+    margin: 0;
+    font-size: x-large;
+}
+
+.logo{
+    width: 100%;
+    zoom: 1.2;
+}
+div{
+    background-color: white;
+    width: 80%;
+    padding: 2%;
+    margin: 0 auto;
+    border-radius: 15px;
+    border: 2px solid #fdd79f;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 900px;
+    box-shadow: unset;
+    padding: unset;
+    background-color: unset;
+}   
+
+.card {
+    background-color: #a86830;
+    color: white;
+    padding: 30px 20px;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 70px;
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.vazio{
+    background-color: #FEF8CD;
+    border: #FEF8CD;
+}
+
+.gira-float {
+    position: absolute;
+    top: 147% fixed;
+    right: 1%;
+    width: 10%;
+    height: auto;
+    z-index: 0;
+}
+
+.girassol {
+    position: absolute;
+    top: 140% fixed;
+    right: 3%;
+    width: 10%;
+    height: auto;
+    z-index: 0;
+}
+
+.giras {
+    position: absolute;
+    top: 197%;
+    left: 1%;
+    width: 11%;
+    z-index: 0;
+}
+
+.girassol-campanha {
+    position: absolute;
+    top: 2870px;
+    right: 6%;
+    width: 12%;
+    height: 370px;
+}
+
+#div-menor{
+    width: 70%;
+    margin: unset;
+    margin-left: 8%;
+}
